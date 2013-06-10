@@ -10,15 +10,15 @@ The program finds:
 4) All pure strategy Nash equilibria
 
 Points to note:
--> Strongly dominant, weakly dominant and very weakly dominant strategy equilibrium can be printed, but I haven't done
+1) Strongly dominant, weakly dominant and very weakly dominant strategy equilibrium can be printed, but I haven't done
    that.
--> Computation of the pure strategy Nash equilibria will take quite some time, since I've used a brute-force
+2) Computation of the pure strategy Nash equilibria will take quite some time, since I've used a brute-force
    approach. However, the strongly, weakly and very weakly dominant strategies don't take much time, and if
    you are interested only in them, please comment out the findNashEquilibria() function inside main() and the code
    that follows to print them.
    
 Comments on the input format:
--> My code basically follows the Gambit format. The input file needs to be a .nfg file with the payoff values listed in it.
--> I assume that all the payoff values are written in one line in the file (This is important).
+1) My code basically follows the Gambit format. The input file needs to be a .nfg file with the payoff values listed in it.
+2) I assume that all the payoff values are written in one line in the file (This is important).
    So if you plan on using my code, please remember that your input file needs to have exactly 4 lines, as in the
    sample file 'random.nfg'.
