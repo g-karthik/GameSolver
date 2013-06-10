@@ -22,3 +22,9 @@ Comments on the input format:
 2) I assume that all the payoff values are written in one line in the file (This is important).
    So if you plan on using my code, please remember that your input file needs to have exactly 4 lines, as in the
    sample file 'random.nfg'.
+3) Please pass the input file 'random.nfg' or your input game file in the same format as a command-line argument to the
+   program.
+
+
+Please check out the following link to learn about the Gambit format:
+http://www.gambit-project.org/doc/formats.html#id1
