@@ -67,8 +67,7 @@ public class GameSolver
         int alpha;
         
         float Ui,val;
-        //int [] temp = new int[NoOfPlayers];
-        ArrayList list = new ArrayList();
+        ArrayList list;
         
         main_for:        for(j=0;j<NoOfStrategyProfiles;j++)
         {
