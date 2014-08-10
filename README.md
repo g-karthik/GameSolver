@@ -24,7 +24,3 @@ Comments on the input format:
    sample file 'random.nfg'.
 3) Please pass the input file 'random.nfg' or your input game file in the same format as a command-line argument to the
    program.
-
-
-Please check out the following link to learn about the Gambit format:
-http://www.gambit-project.org/doc/formats.html#id1
